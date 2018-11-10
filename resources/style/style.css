@@ -1,28 +1,261 @@
+/* RGB legend
+White: rgba(255, 255, 255, 1);
+Platinum: rgba(229, 229, 229, 1);
+Gold: rgba(218, 165, 32, 1);
+Dark grey: rgba(56,56,56,1);
+Dark blue: rgba(8, 65, 92, 1);
+Dark red: rgba(114, 24, 23, 1)
+*/
+
 /* universal formatting */
+
+a {
+    text-decoration: none;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3em;
+    color: rgba(56, 56, 56, 1);
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 2.5em;
+    color: rgba(218, 165, 32, 1);
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 1.75em;
+    color: rgba(56, 56, 56, 1);
+}
+
+h4 {
+    font-weight: 900;
+    font-size: 1.2em;
+    color: rgba(56, 56, 56, 1);
 }
 
 
+.center {
+    text-align: center;
+}
 
 /* nav */
+header {
+    background-color: white;
+    height: 4em;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5em 2em;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+.logo-bold {
+    font-family: 'Monda';
+    font-weight: 500;
+    color: rgba(56, 56, 56, 1);
+}
+
+.logo-academy {
+    color: goldenrod;
+}
+
+header div img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    align-items: center;
+    padding-left: 1.33em;
+}
+
+nav a:hover {
+    color: goldenrod;
+    border-radius: 8%;
+}
+
+nav a {
+    text-decoration: none;
+    color: dimgray;
+    font-size: 1.2em;
+}
 
 
-
+.main-content {
+    position: relative;
+    top: 4em;
+    margin: 0 2em;
+}
 
 /* banner */
+.banner {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 2em;
+}
 
+.left {
+    width: 60%;
+    height: auto;
+    max-width: 550px;
+}
 
+.banner-text {
+    width: 25%;
+    height: 19em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 2em;
 
+}
+
+.button {
+    padding: .75em 25%;
+    background-color: rgba(8, 65, 92, 1);
+    text-align: center;
+    color: rgba(229, 229, 229, 1);
+    font-size: 1.25em;
+    font-weight: 900;
+}
+
+.button:hover {
+    background-color: rgba(218, 165, 32, 1);
+    color: rgba(56, 56, 56, 1);
+
+}
 
 /* information */
+.information {
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 2em;
+    padding-bottom: 2.66em;
+}
+
+.main-story {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main-story img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    max-width: 550px;
+}
+
+.main-story h2 {
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
+.main-story p {
+    font-size: 1.5em;
+    color: rgba(56, 56, 56, 1);
+    padding-bottom: 2.7em;
+    line-height: 1.4em;
+}
+
+.credit {
+    font-size: 1.2em;
+    color: rgba(56, 56, 56, .6);
+}
+
+.more-info {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+.info-block {
+    width: 100%;
+    height: 170px;
+    max-height: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: center;
+    padding: 0 1.3em 0 2.3em;
+}
 
 
+.thumbnail {
+    width: 35%;
+    height: auto;
+    max-height: 158px;
+    padding: 0 1.5em 1.5em 1.5em;
+}
+
+.info-text {
+    width: 65%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.info-text a {
+    color: rgba(8, 65, 92, 1);
+}
+
+.info-text a:hover {
+    color: goldenrod;
+    border-radius: 8%;
+}
 
 
 /* courses */
+.course-section {
+    height: 550px;
+    background-color: rgba(240, 240, 240, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2em;
+}
 
+.section-title {
+    padding: 32px 0;
+}
 
 
 
