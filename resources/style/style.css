@@ -224,7 +224,6 @@ nav a {
     padding-left: 1.5em;
 }
 
-
 .thumbnail {
     width: 35%;
     height: auto;
@@ -373,11 +372,9 @@ footer {
         margin: 0;
     }
 
-
     .secondary-content {
         padding: 0 2em;
     }
-
 
     .mobile ul {
         display: flex;
@@ -409,6 +406,7 @@ footer {
     }
 
     .mobile-banner-photo {
+        display: block;
         background-image: url(/resources/images/banner.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -446,8 +444,6 @@ footer {
         width: 100%;
         height: 250px;
     }
-
-    /* --------------- */
 
     .information {
         width: 100%;
