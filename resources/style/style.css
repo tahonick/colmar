@@ -372,6 +372,14 @@ footer {
         margin: 0;
     }
 
+    .mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
     .secondary-content {
         padding: 0 2em;
     }
@@ -482,15 +490,6 @@ footer {
     .course-section {
         background-color: white;
         border-top: 1px solid rgba(240, 240, 240, 1);
-    }
-
-
-    .mobile {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        width: 100%;
     }
 
     .mobile-course-section {
